@@ -2,8 +2,13 @@
   "manifest_version": 3,
   "name": "Remove analytics button from Twitter",
 	"author": "bitencourteric@hotmail.com",
-  "version": "1.0",
-  "description": "This extension removes the first button of tweets.",
+  "version": "0.1",
+	"description": "This extension removes the first button of tweets.",
+	"icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
 	"content_scripts": [
     {
 			"run_at": "document_end",
